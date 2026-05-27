@@ -10,6 +10,7 @@
   "repository": "https://github.com/quiverai/codex-plugin",
   "license": "MIT",
   "keywords": ["quiverai", "svg", "vector", "mcp", "design"],
+  "logo": "assets/logo.svg",
   "skills": "./skills/",
   "interface": {
     "displayName": "QuiverAI",
