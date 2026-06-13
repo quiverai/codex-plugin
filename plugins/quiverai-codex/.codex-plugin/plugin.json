@@ -1,0 +1,30 @@
+{
+  "name": "quiverai",
+  "version": "0.1.0",
+  "description": "Create, refine, and vectorize SVG assets with the hosted QuiverAI MCP server.",
+  "author": {
+    "name": "QuiverAI",
+    "url": "https://quiver.ai"
+  },
+  "homepage": "https://quiver.ai",
+  "repository": "https://github.com/quiverai/codex-plugin",
+  "license": "MIT",
+  "keywords": ["quiverai", "svg", "vector", "mcp", "design"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "QuiverAI",
+    "shortDescription": "Generate and vectorize SVG assets",
+    "longDescription": "Use QuiverAI from Codex through the hosted MCP server and companion skill for SVG generation, refinement, and vectorization workflows.",
+    "developerName": "QuiverAI",
+    "category": "Design",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://quiver.ai",
+    "privacyPolicyURL": "https://quiver.ai/legal/privacy",
+    "termsOfServiceURL": "https://quiver.ai/legal/terms/",
+    "brandColor": "#14B8A6",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": ["Create an SVG asset with QuiverAI", "Vectorize this image with QuiverAI"],
+    "screenshots": []
+  }
+}

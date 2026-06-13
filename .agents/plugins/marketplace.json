@@ -1,0 +1,20 @@
+{
+  "name": "quiverai",
+  "interface": {
+    "displayName": "QuiverAI"
+  },
+  "plugins": [
+    {
+      "name": "quiverai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/quiverai-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
