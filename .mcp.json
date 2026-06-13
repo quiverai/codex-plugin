@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "quiverai": {
-      "type": "http",
-      "url": "https://app.quiver.ai/mcp"
-    }
-  }
-}

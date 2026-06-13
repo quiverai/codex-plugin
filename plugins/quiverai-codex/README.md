@@ -72,7 +72,7 @@ After installing and signing in, confirm the plugin is wired up:
 codex mcp list
 ```
 
-The `quiverai` MCP server should appear as enabled and authenticated. From there, ask the agent to run the QuiverAI skill end-to-end (for example: "list models, then generate an SVG of a delivery drone, then read the SVG content").
+The `quiverai` MCP server should appear as enabled and authenticated. If your client supports listing MCP tools, it should show the eight `quiverai` tools above. From there, ask the agent to run the QuiverAI skill end-to-end (for example: "list models, then generate an SVG of a delivery drone, then read the SVG content").
 
 ## Configuration
 
